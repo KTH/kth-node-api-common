@@ -1,6 +1,6 @@
 {
   "name": "kth-node-api-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/KTH/kth-node-api-common#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.3.0",
+    "mocha": "^6.2.1",
     "standard": "^10.0.2"
   }
 }
