@@ -1,13 +1,11 @@
 {
   "name": "kth-node-api-common",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"ok\"",
-    "test-debug": "node_modules/mocha/bin/mocha --debug-brk test/**/test-*.js",
-    "preversion": "standard && npm run test",
-    "postversion": "git push && git push --tags"
+    "build": "echo \"ok\""
   },
   "repository": {
     "type": "git",
@@ -18,7 +16,11 @@
     "api",
     "node"
   ],
-  "author": "Sebastian Ware <sebastian@urbantalk.se> (https://github.com/jhsware)",
+  "author": {
+    "name": "KTH",
+    "email": "infosys@kth.se",
+    "url": "https://github.com/KTH"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/KTH/kth-node-api-common/issues"
