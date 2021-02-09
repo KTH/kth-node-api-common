@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utility function [1;37mcreateApiPaths()[0m - when given a simple Swagger-configuration - [0;32mworks[0m as expected 1`] = `
+Object {
+  "deleteUserStatus": Object {
+    "method": "DELETE",
+    "uri": "/api/test/v1/status/:username",
+  },
+  "getUserInfo": Object {
+    "method": "GET",
+    "openid": Object {
+      "scope_required": true,
+      "scopes": Object {
+        "api_key": Array [
+          "read",
+        ],
+      },
+    },
+    "uri": "/api/test/v1/info/:username/:field",
+  },
+  "getUserStatus": Object {
+    "method": "GET",
+    "uri": "/api/test/v1/status/:username",
+  },
+  "headUserStatus": Object {
+    "method": "HEAD",
+    "uri": "/api/test/v1/status/:username",
+  },
+  "postUserStatus": Object {
+    "method": "POST",
+    "uri": "/api/test/v1/status/:username",
+  },
+  "putUserStatus": Object {
+    "method": "PUT",
+    "uri": "/api/test/v1/status/:username",
+  },
+}
+`;
