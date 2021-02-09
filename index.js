@@ -1,6 +1,10 @@
+const createApiPaths = require('./lib/createApiPaths')
+const createSwaggerRedirectHandler = require('./lib/createSwaggerRedirectHandler')
+const { notFoundHandler, errorHandler } = require('./lib/errorHandlers')
+
 module.exports = {
-  createApiPaths: require('./lib/createApiPaths'),
-  createSwaggerRedirectHandler: require('./lib/createSwaggerRedirectHandler'),
-  notFoundHandler: require('./lib/errorHandlers').notFoundHandler,
-  errorHandler: require('./lib/errorHandlers').errorHandler
+  createApiPaths,
+  createSwaggerRedirectHandler,
+  notFoundHandler,
+  errorHandler,
 }

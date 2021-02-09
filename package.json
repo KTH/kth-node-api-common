@@ -1,12 +1,8 @@
 {
   "name": "kth-node-api-common",
   "version": "1.0.1",
-  "description": "",
+  "description": "Generic utilities for the API-backends of web-applications at KTH Stockholm",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"ok\"",
-    "build": "echo \"ok\""
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KTH/kth-node-api-common.git"
@@ -21,14 +17,50 @@
     "email": "infosys@kth.se",
     "url": "https://github.com/KTH"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/KTH/kth-node-api-common/issues"
   },
   "homepage": "https://github.com/KTH/kth-node-api-common#readme",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:watch-update": "jest --watch -u",
+    "test:coverage": "jest --collectCoverage",
+    "build": "echo ok"
+  },
+  "dependencies": {
+    "yup": "^0.32.8"
+  },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^6.2.1",
-    "standard": "^10.0.2"
+    "@kth/eslint-config-kth": "^1.0.9",
+    "@types/jest": "^26.0.20",
+    "eslint": "^7.19.0",
+    "jest": "^26.6.3",
+    "jest-extended": "^0.11.5",
+    "prettier": "^2.2.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@kth/eslint-config-kth"
+    ]
+  },
+  "// (prettier)": "configuration version 2020-06-15 - might also reside in .prettierrc.json",
+  "prettier": {
+    "arrowParens": "avoid",
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "// (jest)": "configuration version 2020-06-15 (API+NPM) - might also reside as module.exports in jest.config.js",
+  "jest": {
+    "clearMocks": true,
+    "notifyMode": "failure-change",
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ],
+    "testEnvironment": "node",
+    "verbose": true
   }
 }
