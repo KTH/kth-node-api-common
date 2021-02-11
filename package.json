@@ -18,10 +18,10 @@
     "email": "infosys@kth.se",
     "url": "https://github.com/KTH"
   },
+  "homepage": "https://github.com/KTH/kth-node-api-common#readme",
   "bugs": {
     "url": "https://github.com/KTH/kth-node-api-common/issues"
   },
-  "homepage": "https://github.com/KTH/kth-node-api-common#readme",
   "license": "MIT",
   "scripts": {
     "test": "jest",
