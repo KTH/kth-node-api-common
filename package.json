@@ -1,6 +1,6 @@
 {
-  "name": "kth-node-api-common",
-  "version": "1.0.2",
+  "name": "@kth/kth-node-api-common",
+  "version": "2.0.0",
   "description": "Generic utilities for the API-backends of web-applications at KTH Stockholm",
   "automaticPublish": "true",
   "main": "index.js",
@@ -39,7 +39,7 @@
     "@types/jest": "^27.0.3",
     "eslint": "^7.32.0",
     "husky": "^7.0.4",
-    "jest": "^27.4.3",
+    "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
     "prettier": "^2.5.1",
     "pretty-quick": "^3.1.2"
