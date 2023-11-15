@@ -7,6 +7,4 @@ node_modules
 .vscode
 npm-debug.log
 
-package-lock.json
-
 coverage

@@ -1,9 +1,13 @@
 {
   "name": "@kth/kth-node-api-common",
-  "version": "2.0.0",
+  "version": "2.0.4",
   "description": "Generic utilities for the API-backends of web-applications at KTH Stockholm",
   "automaticPublish": "true",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KTH/kth-node-api-common.git"
@@ -30,7 +34,7 @@
     "test:watch": "jest --watch",
     "test:watch-update": "jest --watch -u",
     "test:coverage": "jest --collectCoverage",
-    "build": "echo ok",
+    "build": "",
     "prepare": "bash -c 'if [ -f ./node_modules/.bin/husky ]; then husky install; fi'"
   },
   "dependencies": {
