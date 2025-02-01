@@ -38,7 +38,7 @@
     "prepare": "bash -c 'if [ -f ./node_modules/.bin/husky ]; then husky install; fi'"
   },
   "dependencies": {
-    "yup": "^0.32.11"
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@kth/eslint-config-kth": "^3.0.10",
