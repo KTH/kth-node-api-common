@@ -38,7 +38,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "yup": "^0.32.11"
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@kth/eslint-config-kth": "^3.7.0",
