@@ -41,7 +41,7 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
-    "@kth/eslint-config-kth": "^3.7.0",
+    "@kth/eslint-config-kth": "^4.0.0",
     "@types/jest": "^29.5.14",
     "eslint": "^8.57.1",
     "husky": "^9.1.7",
