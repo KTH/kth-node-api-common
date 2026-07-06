@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Utility function [1;37mcreateApiPaths()[0m - when given a simple Swagger-configuration - [0;32mworks[0m as expected 1`] = `
 {
