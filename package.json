@@ -1,6 +1,6 @@
 {
   "name": "@kth/kth-node-api-common",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Generic utilities for the API-backends of web-applications at KTH Stockholm",
   "automaticPublish": "true",
   "main": "index.js",
